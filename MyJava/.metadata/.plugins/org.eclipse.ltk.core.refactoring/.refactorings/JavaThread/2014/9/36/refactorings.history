@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;cn.ThreadPro.Move.java&apos; to &apos;Movie.java&apos;&#x0D;&#x0A;- Original project: &apos;JavaThread&apos;&#x0D;&#x0A;- Original element: &apos;cn.ThreadPro.Move.java&apos;&#x0D;&#x0A;- Renamed element: &apos;cn.ThreadPro.Movie.java&apos;" description="Rename compilation unit &apos;Move.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;cn.ThreadPro{Move.java" name="Movie.java" references="false" stamp="1409571053025" version="1.0"/>
+</session>

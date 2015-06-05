@@ -1,0 +1,16 @@
+package cn.ThreadPro;
+/**
+ * 一个场景，共同的资源
+ * @author YR
+ *
+ */
+public class Movie {
+    private String pic;
+    public void  play(String pic){
+	this.pic = pic;
+    }
+    public void watch(){
+	System.out.println(pic);
+    }
+}
+

@@ -1,0 +1,30 @@
+package cn.innerType;
+ 
+/**
+ * 基本类型排序
+ * @author YR
+ *
+ */
+public class Util {
+	public static void sort(Object[] arr){
+		//数组的排序
+		for(int i = 0;i<arr.length-1;i++){
+			boolean sort = true;
+			
+			for(int k = 0;k<arr.length-i-1;k++){
+				Object temp;
+				if((Comparable)arr[k].compareTo(arr[k+1])>0){
+					temp = arr[k+1];
+					arr[k+1] = arr[k];
+					arr[k] = temp;
+					sort = false;
+				}
+
+			}
+			if(sort)
+				break;
+		
+	}
+	}
+
+}

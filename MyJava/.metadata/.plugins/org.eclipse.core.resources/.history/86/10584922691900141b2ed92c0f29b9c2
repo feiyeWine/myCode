@@ -1,0 +1,9 @@
+package cn.innerType;
+
+public class Demo01 {
+	public static void main(String[] args) {
+		String arr[]={"abd","abc","abcd"};
+		Util.sort(arr);
+	}
+
+}

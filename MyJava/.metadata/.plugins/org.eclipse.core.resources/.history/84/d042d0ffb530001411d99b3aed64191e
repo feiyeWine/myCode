@@ -1,0 +1,15 @@
+package cn.ThreadSyn;
+/**
+ * 单利设计模式：确保一个类只有一个对象
+ * @author YR
+ *
+ */
+public class Jvm {
+    public static void main(String[] args) {
+	
+    }
+    static void getIntance(){
+	JvmDemo01 intance = null;
+	
+    }
+}

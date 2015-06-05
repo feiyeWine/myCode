@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="273" key="DIALOG_WIDTH"/>
+		<item value="221" key="DIALOG_Y_ORIGIN"/>
+		<item value="400" key="DIALOG_HEIGHT"/>
+		<item value="342" key="DIALOG_X_ORIGIN"/>
+		<item value="1|Microsoft YaHei UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft YaHei UI" key="DIALOG_FONT_NAME"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="true" key="wrap"/>
+		<item value="false" key="isRegEx"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="false" key="wholeword"/>
+		<item value="Test4" key="selection"/>
+		<list key="findhistory">
+			<item value="Knapsack0"/>
+			<item value="Test4"/>
+			<item value="printf"/>
+			<item value="i"/>
+			<item value="List"/>
+			<item value="MAX"/>
+			<item value="&#x09;{0,"/>
+			<item value="void out(int mix[11][11])"/>
+		</list>
+		<list key="replacehistory">
+			<item value="Test4"/>
+			<item value=""/>
+			<item value="System.out.print"/>
+			<item value="j"/>
+			<item value="0"/>
+			<item value="MAX"/>
+			<item value="M"/>
+			<item value="long"/>
+		</list>
+	</section>
+</section>

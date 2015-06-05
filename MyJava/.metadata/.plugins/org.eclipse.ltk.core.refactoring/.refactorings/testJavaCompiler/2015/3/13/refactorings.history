@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.testComplier&apos; to &apos;com.testCompiler&apos;&#x0D;&#x0A;- Original project: &apos;testJavaCompiler&apos;&#x0D;&#x0A;- Original element: &apos;testJavaCompiler/src/com.testComplier&apos;&#x0D;&#x0A;- Renamed element: &apos;testJavaCompiler/src/com.testCompiler&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.testComplier&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;com.testComplier" name="com.testCompiler" qualified="false" references="true" stamp="1426988727423" textual="false" version="1.0"/>
+</session>

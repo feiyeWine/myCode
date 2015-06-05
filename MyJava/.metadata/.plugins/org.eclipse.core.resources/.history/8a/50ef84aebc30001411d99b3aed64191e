@@ -1,0 +1,36 @@
+package cn.ThreadSyn;
+/**
+ * 单利设计模式：确保一个类只有一个对象
+ * @author YR
+ *
+ */
+public class JvmDemo01 {
+    public static void main(String[] args) {
+	Jvm j1 = Jvm.getIntance();
+	Jvm j2 = Jvm.getIntance();
+	System.out.println();
+    }
+}
+class JvmThread extends  Thread{
+   @Override
+   public void run() {
+    System.out.println(Thread.currentThread().getName()+"创建对象");
+   }
+}
+class Jvm{
+    private long time ;
+    private static Jvm intance = null;
+    public  static Jvm getIntance (long time ){
+	
+	if(null==intance){
+	    intance = new Jvm();
+	}
+	return intance;
+    }
+    public Jvm() {
+	
+    }
+    public Jvm(long time){
+	this.time = time;
+    }
+}

@@ -1,0 +1,25 @@
+package cn.ThreadPro;
+/**
+ * 一个场景，共同的资源
+ * @author YR
+ *
+ */
+public class Movie {
+    private String pic;
+    //标识
+    private boolean flag = true;
+    public void  play(String pic){
+	if(!flag){
+	    try {
+		this.wait();
+	    } catch (InterruptedException e) {
+		e.printStackTrace();
+	    }
+	}
+	this.pic = pic;
+    }
+    public void watch(){
+	System.out.println(pic);
+    }
+}
+

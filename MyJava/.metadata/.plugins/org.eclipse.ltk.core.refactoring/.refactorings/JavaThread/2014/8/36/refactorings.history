@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename type &apos;cn.ThreadSyn.Jvm&apos; to &apos;JvmDemo01&apos;&#x0D;&#x0A;- Original project: &apos;JavaThread&apos;&#x0D;&#x0A;- Original element: &apos;cn.ThreadSyn.Jvm&apos;&#x0D;&#x0A;- Renamed element: &apos;cn.ThreadSyn.JvmDemo01&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Jvm&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;cn.ThreadSyn{Jvm.java[Jvm" matchStrategy="1" name="JvmDemo01" qualified="false" references="true" similarDeclarations="false" stamp="1409451896736" textual="false" version="1.0"/>
-</session>
